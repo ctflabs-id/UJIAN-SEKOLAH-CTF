@@ -15,7 +15,7 @@ $user = $_SESSION['user'];
         <h2>LATIHAN CTF (Capture The Flags) CTFLabs ID</h2>
         <p>Selamat CTFERS<br>
         selamat atas berhasil di tes OSINT dan cryptographic<br>
-        Berikut kode CTF-nya: <strong>CTFL{UJIAN_SEKOLAH_CTF}</strong></p>
+        Berikut kode CTF-nya: <strong>CTFL{CTF_CODE}</strong></p>
 
         <div>
             <p>Login sebagai: <strong><?= htmlspecialchars($user['nama']) ?></strong></p>
